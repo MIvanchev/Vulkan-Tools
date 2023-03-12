@@ -63,4 +63,4 @@ jobs:
             - uses: actions/upload-artifact@v3
               with:
                   name: vkcube.exe
-                  path: D:\a\Vulkan-Tools\Vulkan-Tools\build\cube\Release\vkcube.exe
+                  path: D:\a\Vulkan-Tools\Vulkan-Tools\build\cube\${{matrix.config}}\vkcube.exe
